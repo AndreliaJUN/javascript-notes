@@ -10,6 +10,6 @@
 * 持续学习探索
 
 [GitHub](https://github.com/AndreliaJUN/javascript-notes)
-[Get Started](#README)
+[Get Started](README.md)
 
 ![color](#B3FFC1)
