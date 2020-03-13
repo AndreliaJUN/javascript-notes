@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
 </head>
+
 <body>
-  
-  <script src="test.js"></script>
+  <div>
+    <p>hahahaha</p>
+
+  </div>
+  <script>
+    function f1(x, y) {
+      console.log("这个函数是window对象的一个方法:" + (x + y) + this);
+    }
+    window.f1(10, 20);
+  </script>
 </body>
+
 </html>
